@@ -1,7 +1,6 @@
 ---
 galaxy_info:
-  author: Michael Buluma
-  namespace: buluma
+  author: buluma
   role_name: autofs
   description: Install and configure autofs on your system.
   license: Apache-2.0
@@ -14,11 +13,12 @@ galaxy_info:
         - bullseye
     - name: EL
       versions:
-        - 8
+        - "8"
+        - "9"
     - name: Fedora
       versions:
         - all
-    - name: OpenSUSE
+    - name: opensuse
       versions:
         - all
     - name: Ubuntu
