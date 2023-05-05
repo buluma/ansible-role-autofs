@@ -9,12 +9,10 @@ molecule:
   allow_failure: true
   script:
     - image=${image} tag=${tag} molecule test
-  retry: 1
+  retry: 0
   parallel:
     matrix:
       - image: "enterpriselinux"
-        tag: "latest"
-      - image: "docker-centos7-ansible"
         tag: "latest"
       - image: "ubuntu"
         tag: "latest"
