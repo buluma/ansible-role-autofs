@@ -2,9 +2,9 @@
 
 Install and configure autofs on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-autofs/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-autofs/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-autofs/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-autofs)|[![quality](https://img.shields.io/ansible/quality/59156)](https://galaxy.ansible.com/buluma/autofs)|[![downloads](https://img.shields.io/ansible/role/d/59156)](https://galaxy.ansible.com/buluma/autofs)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-autofs/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-autofs/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-autofs/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-autofs)|[![downloads](https://img.shields.io/ansible/role/d/4649)](https://galaxy.ansible.com/buluma/autofs)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-autofs.svg)](https://github.com/buluma/ansible-role-autofs/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -47,7 +47,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 ```yaml
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: yes
   gather_facts: no
@@ -141,12 +141,13 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |container|tags|
 |---------|----|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bullseye|
-|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8, 9|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
+|[Kali](https://hub.docker.com/repository/docker/buluma/kali/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
