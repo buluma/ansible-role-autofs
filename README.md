@@ -1,4 +1,4 @@
-# [autofs](#autofs)
+# [Ansible role autofs](#autofs)
 
 Install and configure autofs on your system.
 
