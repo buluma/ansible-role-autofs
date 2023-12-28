@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-autofs/tree/HEAD)
+## [0.1.4](https://github.com/buluma/ansible-role-autofs/tree/0.1.4) (2023-12-27)
 
-[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.3...0.1.4)
 
 **Closed issues:**
 
