@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.5](https://github.com/buluma/ansible-role-autofs/tree/0.1.5) (2023-12-28)
+
+[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.4...0.1.5)
+
 ## [0.1.4](https://github.com/buluma/ansible-role-autofs/tree/0.1.4) (2023-12-27)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.3...0.1.4)
