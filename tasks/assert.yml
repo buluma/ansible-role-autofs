@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test if slash_replace_char is set correctly
   ansible.builtin.assert:
     that:
