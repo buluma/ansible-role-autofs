@@ -9,6 +9,11 @@
 - Update action [\#16](https://github.com/buluma/ansible-role-autofs/issues/16)
 - rebuild action [\#15](https://github.com/buluma/ansible-role-autofs/issues/15)
 
+**Merged pull requests:**
+
+- Update release\_drafter.yml [\#19](https://github.com/buluma/ansible-role-autofs/pull/19) ([buluma](https://github.com/buluma))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#18](https://github.com/buluma/ansible-role-autofs/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.1.5](https://github.com/buluma/ansible-role-autofs/tree/0.1.5) (2023-12-28)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.4...0.1.5)
