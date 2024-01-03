@@ -74,7 +74,7 @@ jobs:
                   git config --global user.email 'github@buluma.me.ke'
                   git add CHANGELOG.md
                   git commit -m "Updated CHANGELOG.md on \"$(date "+%Y-%m-%d %H:%M:%S")\"" CHANGELOG.md
-                  git push
+                  git push origin HEAD:${{ github.event.repository.default_branch }}
           fi
         env:
           CHANGELOG_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
