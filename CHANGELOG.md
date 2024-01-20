@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-autofs/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#21](https://github.com/buluma/ansible-role-autofs/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.2.0](https://github.com/buluma/ansible-role-autofs/tree/0.2.0) (2024-01-03)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.1.5...0.2.0)
