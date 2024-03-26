@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-autofs/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/24.2.26...HEAD)
+
+**Merged pull requests:**
+
+- Bump dependabot/fetch-metadata from 1 to 2 [\#25](https://github.com/buluma/ansible-role-autofs/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.2.26](https://github.com/buluma/ansible-role-autofs/tree/24.2.26) (2024-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.3.0...24.2.26)
