@@ -1,29 +1,26 @@
----
 galaxy_info:
   author: buluma
   role_name: autofs
   description: Install and configure autofs on your system.
   license: Apache-2.0
   company: none
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: Debian
-      versions:
-        - bullseye
-    - name: EL
-      versions:
-        - "8"
-    - name: Fedora
-      versions:
-        - all
-    - name: opensuse
-      versions:
-        - all
-    - name: Ubuntu
-      versions:
-        - all
+  - name: Debian
+    versions:
+    - all
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
   galaxy_tags:
-    - autofs
-
+  - autofs
 dependencies: []

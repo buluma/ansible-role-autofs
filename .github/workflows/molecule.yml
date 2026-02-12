@@ -41,9 +41,15 @@ jobs:
       matrix:
         distro:
           - image: "docker-molecule-images"
+            tag: "latest"
+          - image: "docker-molecule-images"
+            tag: "bookworm"
+          - image: "docker-molecule-images"
             tag: "bullseye"
           - image: "enterpriselinux"
             tag: "8"
+          - image: "enterpriselinux"
+            tag: "latest"
           - image: "docker-molecule-images"
             tag: "latest"
           - image: "docker-molecule-images"
