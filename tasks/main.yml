@@ -32,7 +32,7 @@
   ansible.builtin.lineinfile:
     path: /etc/auto.master
     line: "+{{ nis_master_map }}"
-    regexp: '^#\s*[+]{{ nis_master_map }}'
+    regexp: "^#\\s*[+]{{ nis_master_map }}"
   notify:
     - Restart autofs
   when: nis_master_map is defined
