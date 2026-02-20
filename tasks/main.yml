@@ -2,7 +2,7 @@
 # tasks file for autofs
 - name: Import assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: yes
+  run_once: true
   delegate_to: localhost
 
 - name: Install requirements for autofs
@@ -24,7 +24,7 @@
 - name: Enable /etc/auto.master.d/*.autofs inclusions
   ansible.builtin.lineinfile:
     path: /etc/auto.master
-    line: '+dir:/etc/auto.master.d'
+    line: "+dir:/etc/auto.master.d"
   notify:
     - Restart autofs
 
@@ -32,11 +32,10 @@
   ansible.builtin.lineinfile:
     path: /etc/auto.master
     line: "+{{ nis_master_map }}"
-    regexp: '^#\s*[+]{{ nis_master_map }}'
+    regexp: "^#\\s*[+]{{ nis_master_map }}"
   notify:
     - Restart autofs
-  when:
-    nis_master_map is defined
+  when: nis_master_map is defined
 
 - name: Configure autofs_maps
   when:
@@ -110,4 +109,4 @@
   ansible.builtin.service:
     name: "{{ autofs_service }}"
     state: started
-    enabled: yes
+    enabled: true
