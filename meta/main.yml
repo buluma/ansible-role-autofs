@@ -6,14 +6,13 @@ galaxy_info:
   license: Apache-2.0
   company: none
   min_ansible_version: "2.12"
-
   platforms:
     - name: Debian
       versions:
-        - bullseye
+        - all
     - name: EL
       versions:
-        - "8"
+        - all
     - name: Fedora
       versions:
         - all
@@ -25,5 +24,4 @@ galaxy_info:
         - all
   galaxy_tags:
     - autofs
-
 dependencies: []
