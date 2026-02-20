@@ -1,22 +1,5 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-autofs/tree/HEAD)
-
-[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/24.3.31...HEAD)
-
-**Merged pull requests:**
-
-- Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#28](https://github.com/buluma/ansible-role-autofs/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump ansible/ansible-lint from 24.7.0 to 24.9.2 [\#27](https://github.com/buluma/ansible-role-autofs/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
-
-## [24.3.31](https://github.com/buluma/ansible-role-autofs/tree/24.3.31) (2024-03-29)
-
-[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/24.2.26...24.3.31)
-
-**Merged pull requests:**
-
-- Bump dependabot/fetch-metadata from 1 to 2 [\#25](https://github.com/buluma/ansible-role-autofs/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [24.2.26](https://github.com/buluma/ansible-role-autofs/tree/24.2.26) (2024-02-17)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/0.3.0...24.2.26)
