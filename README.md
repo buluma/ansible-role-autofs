@@ -12,48 +12,48 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.autofs
-        autofs_maps:
-          - mountpoint: /bind/mnt
-            options:
-              - "--timeout 60"
-            directories:
-              - path: mount
-                server: ":/mnt"
-                options:
-                  - "fstype=bind"
-          - name: direct-mounts
-            mountpoint: /-
-            options:
-              - "--timeout 60"
-              - "--ghost"
-            directories:
-              - path: /bind/direct/mount
-                server: ":/mnt"
-                options:
-                  - "fstype=bind"
-          - mountpoint: /do_not_exist
-            state: absent
-        nis_master_map: auto.master
+  roles:
+  - role: buluma.autofs
+    autofs_maps:
+    - mountpoint: /bind/mnt
+      options:
+      - "--timeout 60"
+      directories:
+      - path: mount
+        server: ":/mnt"
+        options:
+        - "fstype=bind"
+    - name: direct-mounts
+      mountpoint: /-
+      options:
+      - "--timeout 60"
+      - "--ghost"
+      directories:
+      - path: /bind/direct/mount
+        server: ":/mnt"
+        options:
+        - "fstype=bind"
+    - mountpoint: /do_not_exist
+      state: absent
+    nis_master_map: auto.master
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-autofs/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
-      - role: buluma.bootstrap
+  roles:
+  - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
