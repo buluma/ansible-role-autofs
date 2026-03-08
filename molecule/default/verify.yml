@@ -5,11 +5,11 @@
   gather_facts: true
 
   tasks:
-  - name: Check that the path is available at the mountpoint
-    ansible.builtin.stat:
-      path: "{{ item }}"
-    register: autofs_test_bind
-    failed_when:
-    - not autofs_test_bind.stat.exists
-    loop:
-    - /bind/mnt/mount
+    - name: Check that the path is available at the mountpoint
+      ansible.builtin.stat:
+        path: "{{ item }}"
+      register: autofs_test_bind
+      failed_when:
+        - not autofs_test_bind.stat.exists
+      loop:
+        - /bind/mnt/mount
