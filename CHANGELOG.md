@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#33](https://github.com/buluma/ansible-role-autofs/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 4 to 6 [\#30](https://github.com/buluma/ansible-role-autofs/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.10.0 to 24.12.0 [\#29](https://github.com/buluma/ansible-role-autofs/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.9.2 to 24.10.0 [\#28](https://github.com/buluma/ansible-role-autofs/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
