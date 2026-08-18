@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-autofs/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/26.6.1...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 26.6.0 to 26.8.0 [\#36](https://github.com/buluma/ansible-role-autofs/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [26.6.1](https://github.com/buluma/ansible-role-autofs/tree/26.6.1) (2026-07-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-autofs/compare/26.6.0...26.6.1)
